@@ -13,6 +13,17 @@ The project is structured as a fully reproducible data-science workflow:
 
 ---
 
+## Repository Structure
+
+```
+Predicting_Voter_Turnout/
+│
+├── Code.R # Main R analysis script (data cleaning, ML models)
+├── Voter Turnout Analysis.pdf # Final project report
+└── ESS10 codebook.html # Original ESS10 codebook (variable documentation)
+```
+
+---
 ## Project Overview
 
 ### **Goal**
@@ -88,7 +99,7 @@ Each model outputs:
 
 ---
 
-## 📄 Project Report
+## Project Report
 
 The file **“Voter Turnout Analysis.pdf”** contains:
 - Research background  
@@ -99,7 +110,7 @@ The file **“Voter Turnout Analysis.pdf”** contains:
 
 ---
 
-## 📦 Requirements (R Packages)
+## Requirements (R Packages)
 
 ```r
 library(tidyverse)
